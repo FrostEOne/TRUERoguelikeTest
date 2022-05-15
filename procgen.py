@@ -133,6 +133,7 @@ def generate_dungeon_umberhulk(
     room_max_size: int,
     map_width: int,
     map_height: int,
+    max_monsters_per_room: int,
     engine: Engine,
 ) -> GameMap:
     """Generate a new dungeon map."""
