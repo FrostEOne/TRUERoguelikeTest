@@ -47,7 +47,7 @@ class ActionWithDirection(Action):
 
     @property
     def blocking_entity(self) -> Optional[Entity]:
-        """Return the blocking entity at this actions destination.."""
+        """Return the blocking entity at this actions destination."""
         return self.engine.game_map.get_blocking_entity_at_location(*self.dest_xy)
 
     def perform(self) -> None:

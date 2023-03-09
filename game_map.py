@@ -37,7 +37,7 @@ class GameMap:
                 and entity.x == location_x
                 and entity.y == location_y
             ):
-                return None
+                return entity
 
     def in_bounds(self, x: int, y: int) -> bool:
         """Return True if x and y are inside of the bounds of this map."""
