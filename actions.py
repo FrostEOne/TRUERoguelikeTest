@@ -8,6 +8,7 @@ if TYPE_CHECKING:
 
 class Action:
     def __init__(self, entity: Entity) -> None:
+        # !! See what happens if I do this entity: Entity 
         super().__init__()
         self.entity = entity
 
